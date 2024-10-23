@@ -1,0 +1,27 @@
+.kanban-board {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(243,223,226,0.507);
+    padding: 20px;
+  }
+  
+  .kanban-column {
+    width: 30%;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .kanban-column h2 {
+    text-align: center;
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .kanban-column .card {
+    margin-bottom: 10px;
+  }
+  body{
+    background-color: #f5f5f5;
+  }
